@@ -57,9 +57,11 @@ In this application note, we use a modified version of the Blob Detection tutori
 
 **2.** Place the camera to face upwards in a dark box.
 
-**3.** Program the Portenta H7 with the modified blob detection code in OpenMV. [[Lead shielding?]] [[Why not inside house?]]
+**3.** Make sure all LEDs are turned off. Lead shielding is not necessary, placing the setup outside may prevent the additional absorption of comsic rays by concrete and walls but is not mandatory. Placing the setup indoor is recommended for longer acquisitions (1 day and more).
 
-**4.**  Data is saved to SD card. Repeat measurements with a vertical orientation.
+**4.** Program the Portenta H7 with the modified blob detection code in OpenMV. Lead shielding is not necessary. 
+
+**5.**  Data is saved to SD card. Repeat measurements with a vertical orientation.
 
 ## Data Analysis
 
